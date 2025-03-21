@@ -1,21 +1,5 @@
 **CIIP C++ Course**
 
-
-## Getting new Assignments
-
-
-If you want to get the new assignments or other changes, go to your project directory and use:
-```console
-$ git pull upstream master    # download and merge our changes to your local repo
-```
-
-This first connects to our server and downloads the information from the base project, where we publish the homeworks to.
-Then, it merges our `upstream/master` contents into your local `master` branch.
-For new assignments, we always use new files, so this should work without any merge conflicts.
-
-However, if both of us changed the same file, a merge conflict might happen if the changes aren't compatible, in which case you need to resolve the conflict before you can start working.
-
-
 ## Operating System
 
 We're cannot stress enough that your lecture experience using Windows will most likely be painful.
